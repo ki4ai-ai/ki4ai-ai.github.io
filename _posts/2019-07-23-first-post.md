@@ -1,5 +1,5 @@
 ---
-title: "Sejik's To Do Blog"
+title: "Sejik's To Do Blog First Post"
 date: 2019-07-23 11:36:28 -0400
 categories: jekyll update
 ---
