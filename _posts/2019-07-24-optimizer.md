@@ -15,21 +15,21 @@ Optimizer
   1. [GD](#gd): gradient descent  
   2. [SGD](#sgd): stochastic gradient descent
     Basic: GD
-  3. Momentum 
+  3. [Momentum](#momentum) 
     Basic: SGD
-  4. NAG: nesterov accelragted gradient
+  4. [NAG](#nag): nesterov accelragted gradient  
     Basic: Momentum
-  5. Adagrad  
+  5. [Adagrad](#adagrad)  
     Basic: SGD
-  6. RMSProp  
+  6. [RMSProp](#rmsprop)  
     Basic: Adagrad
-  7. AdaDelta  
+  7. [AdaDelta](#adadelta)  
     Basic: Adagrad
-  8. Adam  
+  8. [Adam](#adam)  
     Basic: Momentum, RMSProp
-  9. Nadam  
+  9. [Nadam](#nadam)  
     Basic: NAG + Adam
-  10. Other
+  10. [Other](#other)  
   
 ### GD
 
