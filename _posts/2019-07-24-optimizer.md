@@ -9,7 +9,7 @@ tags:
   - optimizer
 ---
 
-Optimizer
+Optimizer: GD, SGD, Momentum, NAG, Adagrad, RMSProp, AdaDelta, Adam, Nadam, Other
 
 ## Contents  
   1. [GD](#gd): gradient descent  
