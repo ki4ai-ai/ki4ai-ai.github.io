@@ -9,7 +9,7 @@ tags:
   - schedular
 ---
 
-Optimizer
+Schedular
 
 ## Contents  
   1. [Step](#step)  
