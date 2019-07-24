@@ -9,7 +9,7 @@ tags:
   - schedular
 ---
 
-Schedular
+Schedular: Step, MultiSteip, CosineAnnealing, ReduceLROnPlateua, WarmUpLR
 
 ## Contents  
   1. [Step](#step)  
