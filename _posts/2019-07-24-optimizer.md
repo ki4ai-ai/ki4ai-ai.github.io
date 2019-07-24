@@ -73,8 +73,8 @@ Optimizer
   1. SparseAdam
   2. Adamax
   3. ASGD
-  4. AMSGrad
-
+  4. AMSGrad: Adam with max value instead exponential average value
+  
 #### 참조 사이트
 1. BEOMSU kIM'S blog: http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html  
 2. Sebastian Ruder's blog: http://ruder.io/optimizing-gradient-descent/  
