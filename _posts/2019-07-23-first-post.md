@@ -35,6 +35,6 @@ Welcome to "Sejik's To Do Blog"
 - [x] Finish my first post
 - [ ] Organize
 
-[sejik_signal_analysis_github]: [https://github.com/Sejik/SignalAnalysis]
-[sejik_NLP_github]: [https://github.com/Sejik/NLP]
-[Optimizer]: [https://sejik.github.io/optimizer/optimizer/]
+[sejik_signal_analysis_github]: https://github.com/Sejik/SignalAnalysis
+[sejik_NLP_github]: https://github.com/Sejik/NLP
+[Optimizer]: https://sejik.github.io/optimizer/optimizer/
