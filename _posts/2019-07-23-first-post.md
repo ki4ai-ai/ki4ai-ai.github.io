@@ -11,19 +11,16 @@ tags:
 Welcome to "Sejik's To Do Blog"
 
 1. applied case
-   * **unordered**
   1. image (classification)
   2. natural language processing
     NLP (BERT, BiDAF, QANet)
   3. others (manufactoring, medicine, CRM, finance)
   
 2. experience
-   * **unordered**
-  1. signal analysis[sejik_signal_analysis_github]
-  2. natural language processing[sejik_NLP_github]
+  1. [signal analysis][sejik_signal_analysis_github]
+  2. [natural language processing][sejik_NLP_github]
   
 3. base algorithm
-   * **unordered**
   1. Optimizer (Adadelta, Adagrad, Adam, SparseAdam, Adamax, ASGD, RMSProp, SGD)
   2. Schedular (Step, MultiStep, Exponential, CosineAnnealing, ReduceLROnPlateua, WarmUpLR)
   3. Exponential Moving Average
