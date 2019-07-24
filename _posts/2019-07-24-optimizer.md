@@ -70,10 +70,10 @@ Optimizer
   step: exponential weight (with exponential step weight) average of NAG gradient  
 
 ### Other
-  1. SparseAdam
-  2. Adamax
+  1. Adamax: Adam with max (L-Infinity Norm)
+  2. AMSGrad: Adam with max value instead exponential average value
   3. ASGD
-  4. AMSGrad: Adam with max value instead exponential average value
+  4. SparseAdam : Adam suitable for sparse tensors
   
 #### 참조 사이트
 1. BEOMSU kIM'S blog: http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html  
