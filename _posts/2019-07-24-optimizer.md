@@ -72,8 +72,8 @@ Optimizer
 ### Other
   1. Adamax: Adam with max (L-Infinity Norm)
   2. AMSGrad: Adam with max value instead exponential average value
-  3. ASGD
-  4. SparseAdam : Adam suitable for sparse tensors
+  3. SparseAdam : Adam suitable for sparse tensors
+  4. ASGD: accelerating asynchronous SGD
   
 #### 참조 사이트
 1. BEOMSU kIM'S blog: http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html  
