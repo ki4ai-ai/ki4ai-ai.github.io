@@ -13,11 +13,11 @@ Optimizer
 
 ## Contents  
   1. [GD](#gd): gradient descent  
-  2. [SGD](#sgd): stochastic gradient descent
+  2. [SGD](#sgd): stochastic gradient descent  
     Basic: GD
-  3. [Momentum](#momentum) 
+  3. [Momentum](#momentum)  
     Basic: SGD
-  4. [NAG](#nag): nesterov accelragted gradient  
+  4. [NAG](#nag): nesterov accelragted gradient    
     Basic: Momentum
   5. [Adagrad](#adagrad)  
     Basic: SGD
@@ -26,17 +26,17 @@ Optimizer
   7. [AdaDelta](#adadelta)  
     Basic: Adagrad
   8. [Adam](#adam)  
-    Basic: Momentum, RMSProp
+    Basic: Momentum, RMSProp  
   9. [Nadam](#nadam)  
     Basic: NAG + Adam
   10. [Other](#other)  
   
 ### GD
-  step: current gradient = previous gradient - weight * gradients(whole dataset)
+  step: weight * gradients(whole dataset)
   problem: huge memory
   solution: SGD, using partial data & more steps
 ### SGD  
-  step: current gradient = previous gradient - weight * gradients(mini-batch)  
+  step: weight * gradients(mini-batch)  
   problem: very slow  
   solution1: Momentum, exponential weight average of gradient  
   solution2: Adagrad, 
@@ -47,12 +47,12 @@ Optimizer
 ### NAG  
   step: exponential weight average of gradient(gradient calculation: momentum point)  
 ### Adagrad  
-  current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]  
-  problem: iteration ++ (larger) --> stepsize -- (too small)  
+  step: current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]  
+  problem: iteration ++ (larger) --> stepsize -- (too small to learn)  
   solve: RMSProp, exponential moving average
 ### RMSProp  
-    current stepsize = previous stepsize - eta * gradient / EMA  
-    EMA = ratio of [L2 norm][L2_norm] and gradients^2 
+  current stepsize = previous stepsize - eta * gradient / EMA  
+  EMA = ratio of [L2 norm][L2_norm] and gradients^2 
 ### AdaDelta  
 
 ### Adam  
