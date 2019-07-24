@@ -26,7 +26,7 @@ Welcome to "Sejik's To Do Blog"
   2. [natural language processing][sejik_NLP_github]
 
 ### 3. base algorithm
-  1. Optimizer (Adadelta, Adagrad, Adam, SparseAdam, Adamax, ASGD, RMSProp, SGD)
+  1. [Optimizer][Optimizer]
   2. Schedular (Step, MultiStep, Exponential, CosineAnnealing, ReduceLROnPlateua, WarmUpLR)
   3. Exponential Moving Average
 
@@ -37,3 +37,4 @@ Welcome to "Sejik's To Do Blog"
 
 [sejik_signal_analysis_github]: [https://github.com/Sejik/SignalAnalysis]
 [sejik_NLP_github]: [https://github.com/Sejik/NLP]
+[Optimizer]: [https://sejik.github.io/optimizer/optimizer/]
