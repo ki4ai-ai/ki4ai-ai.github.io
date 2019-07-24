@@ -75,5 +75,5 @@ Optimizer
   4. ASGD
 
 #### 참조 사이트:
-1. http://ruder.io/optimizing-gradient-descent/
+1. http://ruder.io/optimizing-gradient-descent/  
 2. 
