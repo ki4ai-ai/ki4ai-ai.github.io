@@ -45,7 +45,7 @@ Optimizer
   problem1: over caculated momentum  
   solution1: NAG, change gradient calculation points to momentum point  
   problem2: variety of weight feature  
-  solution2: RMSProp & Adam, exponential weight of Adagrad
+  solution2: RMSProp & Adam, exponential weight of Adagrad & momentum gradient
 ### NAG  
   step: exponential weight average of gradient (gradient calculation: momentum point)  
   problem:  
