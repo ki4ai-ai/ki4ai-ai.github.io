@@ -11,7 +11,7 @@ tags:
 
 Optimizer
 
-## Contents
+## Contents  
   1. [GD](#gd): gradient descent  
   2. [SGD](#sgd): stochastic gradient descent
     Basic: GD
@@ -32,30 +32,38 @@ Optimizer
   10. [Other](#other)  
   
 ### GD
-
-### SGD
-
-### Momentum
-
-### NAG
-
-### Adagrad
-    current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]  
-    problem: iteration ++ (larger) --> stepsize -- (too small) 
-    solve: RMSProp, exponential moving average 
-### RMSProp
+  step: current gradient = previous gradient - weight * gradients(whole dataset)
+  problem: huge memory
+  solution: SGD, using partial data & more steps
+### SGD  
+  step: current gradient = previous gradient - weight * gradients(mini-batch)  
+  problem: very slow  
+  solution1: Momentum, exponential weight average of gradient  
+  solution2: Adagrad, 
+### Momentum  
+  step: exponential weight average of gradient(gradient calculation: origin)  
+  problem: over caculated momentum  
+  solution: NAG, change gradient calculation points to momentum point  
+### NAG  
+  step: exponential weight average of gradient(gradient calculation: momentum point)  
+### Adagrad  
+  current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]  
+  problem: iteration ++ (larger) --> stepsize -- (too small)  
+  solve: RMSProp, exponential moving average
+### RMSProp  
     current stepsize = previous stepsize - eta * gradient / EMA  
     EMA = ratio of [L2 norm][L2_norm] and gradients^2 
-### AdaDelta
+### AdaDelta  
 
-### Adam
+### Adam  
 
-### Nadam
+### Nadam  
 
-### Other
+### Other  
   1. Adadelta
   2. SparseAdam
   3. Adamax
   4. ASGD
 
 [L2_norm]: https://sejik.github.io/
+http://ruder.io/optimizing-gradient-descent/
