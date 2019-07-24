@@ -19,13 +19,13 @@ Optimizer
     Basic: SGD
   4. [NAG](#nag): nesterov accelragted gradient    
     Basic: Momentum
-  5. [Adagrad](#adagrad)  
+  5. [Adagrad](#adagrad): Adaptive Gradient  
     Basic: SGD
   6. [RMSProp](#rmsprop)  
     Basic: Adagrad, Momentum
-  7. [AdaDelta](#adadelta)  
+  7. [AdaDelta](#adadelta): adaptive delta  
     Basic: Adagrad
-  8. [Adam](#adam): Adaptive Moment Estimation  
+  8. [Adam](#adam): adaptive moment estimation  
     Basic: RMSProp + Momentum
   9. [Nadam](#nadam)  
     Basic: NAG + Adam
