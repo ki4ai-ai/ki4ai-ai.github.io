@@ -22,41 +22,50 @@ Optimizer
   5. [Adagrad](#adagrad)  
     Basic: SGD
   6. [RMSProp](#rmsprop)  
-    Basic: Adagrad
+    Basic: Adagrad, Momentum
   7. [AdaDelta](#adadelta)  
     Basic: Adagrad
-  8. [Adam](#adam)  
-    Basic: Momentum, RMSProp  
+  8. [Adam](#adam): Adaptive Moment Estimation  
+    Basic: RMSProp + Momentum
   9. [Nadam](#nadam)  
     Basic: NAG + Adam
   10. [Other](#other)  
   
 ### GD
-  step: weight * gradients(whole dataset)
+  step: weight * gradients (whole dataset)
   problem: huge memory
   solution: SGD, using partial data & more steps
 ### SGD  
-  step: weight * gradients(mini-batch)  
+  step: weight * gradients (mini-batch)  
   problem: very slow  
   solution1: Momentum, exponential weight average of gradient  
-  solution2: Adagrad, 
+  solution2: Adagrad, L2 norm of gradient
 ### Momentum  
-  step: exponential weight average of gradient(gradient calculation: origin)  
-  problem: over caculated momentum  
-  solution: NAG, change gradient calculation points to momentum point  
+  step: exponential weight average of gradient (gradient calculation: origin)  
+  problem1: over caculated momentum  
+  solution1: NAG, change gradient calculation points to momentum point  
+  problem2: variety of weight feature  
+  solution2: RMSProp & Adam, exponential weight of Adagrad
 ### NAG  
-  step: exponential weight average of gradient(gradient calculation: momentum point)  
+  step: exponential weight average of gradient (gradient calculation: momentum point)  
+  problem: 
+  solution: 
 ### Adagrad  
-  step: current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]  
-  problem: iteration ++ (larger) --> stepsize -- (too small to learn)  
-  solve: RMSProp, exponential moving average
+  step: weight * gradients (L2 norm)  
+  problem1: stepsize shrinking to learn nothing  
+  solution1: RMSProp, exponential moving average
 ### RMSProp  
-  current stepsize = previous stepsize - eta * gradient / EMA  
-  EMA = ratio of [L2 norm][L2_norm] and gradients^2 
+  step: exponential weight average of gradient (L2 norm)
+  problem: first order optimization
+  solution: AdaDelta, second order optimization (inverse unit)
 ### AdaDelta  
-
+  step: exponential weight (with exponential step weight) average of gradient
+  problem: variety of weight feature  
+  solution: Adam, momentum gradient
 ### Adam  
-
+  step: exponential weight (with exponential step weight) average of momentum gradient
+  problem: 
+  solution: 
 ### Nadam  
 
 ### Other  
@@ -65,5 +74,4 @@ Optimizer
   3. Adamax
   4. ASGD
 
-[L2_norm]: https://sejik.github.io/
 http://ruder.io/optimizing-gradient-descent/
