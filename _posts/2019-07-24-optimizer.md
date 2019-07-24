@@ -14,7 +14,7 @@ Optimizer
 ## Contents
   1. Adadelta
   2. Adagrad  
-    current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]. 
+    current stepsize = previous stepsize - alpha * gradient / [L2 norm][L2_norm]  
     problem: iteration ++ (larger) --> stepsize -- (too small) 
     solve: RMSProp, exponential moving average  
   3. RMSProp  
