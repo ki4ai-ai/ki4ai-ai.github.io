@@ -8,27 +8,40 @@ tags:
   - machine learning
 ---
 
-Welcome to "Sejik's To Do Blog"
+# Welcome to "Sejik's To Do Blog"
 
-# applied case
-  ## image (classification)
-  ## natural language processing
+## Contents
+```
+  1. applied case
+  2. experience
+  3. base algorithm
+```
+
+### 1. applied case
+```
+  1. image (classification)
+  2. natural language processing
     NLP (BERT, BiDAF, QANet)
-  ## others (manufactoring, medicine, CRM, finance)
-  
-# experience
-  ## [signal analysis][sejik_signal_analysis_github]
-  ## [natural language processing][sejik_NLP_github]
-  
-# base algorithm
-  ## Optimizer (Adadelta, Adagrad, Adam, SparseAdam, Adamax, ASGD, RMSProp, SGD)
-  ## Schedular (Step, MultiStep, Exponential, CosineAnnealing, ReduceLROnPlateua, WarmUpLR)
-  ## Exponential Moving Average
+  3. others (manufactoring, medicine, CRM, finance)
+```
+
+### 2. experience
+```
+  1. [signal analysis][sejik_signal_analysis_github]
+  2. [natural language processing][sejik_NLP_github]
+```
+
+### 3. base algorithm
+```
+  1. Optimizer (Adadelta, Adagrad, Adam, SparseAdam, Adamax, ASGD, RMSProp, SGD)
+  2. Schedular (Step, MultiStep, Exponential, CosineAnnealing, ReduceLROnPlateua, WarmUpLR)
+  3. Exponential Moving Average
+```
 
 ### Task Lists
 
 - [x] Finish my first post
-- [ ] Make it valuable
+- [ ] Organize
 
 [sejik_signal_analysis_github]: [https://github.com/Sejik/SignalAnalysis]
 [sejik_NLP_github]: [https://github.com/Sejik/NLP]
