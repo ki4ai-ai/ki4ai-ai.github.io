@@ -74,4 +74,6 @@ Optimizer
   3. Adamax
   4. ASGD
 
-http://ruder.io/optimizing-gradient-descent/
+#### 참조 사이트:
+1. http://ruder.io/optimizing-gradient-descent/
+2. 
