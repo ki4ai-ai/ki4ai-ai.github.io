@@ -48,8 +48,8 @@ Optimizer
   solution2: RMSProp & Adam, exponential weight of Adagrad & momentum gradient
 ### NAG  
   step: exponential weight average of gradient (gradient calculation: momentum point)  
-  problem:  
-  solution:
+  problem: variety of weight feature  
+  solution: Nadam, 
 ### Adagrad  
   step: weight * gradients (L2 norm)  
   problem1: stepsize shrinking to learn nothing  
@@ -65,8 +65,9 @@ Optimizer
 ### Adam  
   step: exponential weight (with exponential step weight) average of momentum gradient  
   problem:  
-  solution:
+  solution: Nadam, 
 ### Nadam  
+  step: 
 
 ### Other  
   1. Adadelta
