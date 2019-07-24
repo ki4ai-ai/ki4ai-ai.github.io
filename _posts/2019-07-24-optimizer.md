@@ -70,11 +70,10 @@ Optimizer
   step: exponential weight (with exponential step weight) average of NAG gradient  
 
 ### Other
-  1. Adadelta
-  2. SparseAdam
-  3. Adamax
-  4. ASGD
-  5. AMSGrad
+  1. SparseAdam
+  2. Adamax
+  3. ASGD
+  4. AMSGrad
 
 #### 참조 사이트
 1. BEOMSU kIM'S blog: http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html  
