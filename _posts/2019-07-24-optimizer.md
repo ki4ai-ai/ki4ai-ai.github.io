@@ -29,7 +29,8 @@ Optimizer
     Basic: Momentum, RMSProp
   9. Nadam  
     Basic: NAG + Adam
-    
+  10. Other
+  
 ### GD
 
 ### SGD
@@ -50,5 +51,11 @@ Optimizer
 ### Adam
 
 ### Nadam
+
+### Other
+  1. Adadelta
+  2. SparseAdam
+  3. Adamax
+  4. ASGD
 
 [L2_norm]: https://sejik.github.io/
