@@ -32,8 +32,8 @@ Optimizer
   10. [Other](#other)  
   
 ### GD
-  step: weight * gradients (whole dataset)
-  problem: huge memory
+  step: weight * gradients (whole dataset)  
+  problem: huge memory  
   solution: SGD, using partial data & more steps
 ### SGD  
   step: weight * gradients (mini-batch)  
@@ -48,24 +48,24 @@ Optimizer
   solution2: RMSProp & Adam, exponential weight of Adagrad
 ### NAG  
   step: exponential weight average of gradient (gradient calculation: momentum point)  
-  problem: 
-  solution: 
+  problem:  
+  solution:
 ### Adagrad  
   step: weight * gradients (L2 norm)  
   problem1: stepsize shrinking to learn nothing  
   solution1: RMSProp, exponential moving average
 ### RMSProp  
-  step: exponential weight average of gradient (L2 norm)
-  problem: first order optimization
+  step: exponential weight average of gradient (L2 norm)  
+  problem: first order optimization  
   solution: AdaDelta, second order optimization (inverse unit)
 ### AdaDelta  
-  step: exponential weight (with exponential step weight) average of gradient
+  step: exponential weight (with exponential step weight) average of gradient  
   problem: variety of weight feature  
   solution: Adam, momentum gradient
 ### Adam  
-  step: exponential weight (with exponential step weight) average of momentum gradient
-  problem: 
-  solution: 
+  step: exponential weight (with exponential step weight) average of momentum gradient  
+  problem:  
+  solution:
 ### Nadam  
 
 ### Other  
