@@ -11,11 +11,9 @@ tags:
 # Welcome to "Sejik's To Do Blog"
 
 ## Contents
-```
   1. applied case
   2. experience
   3. base algorithm
-```
 
 ### 1. applied case
 ```
