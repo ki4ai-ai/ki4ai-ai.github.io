@@ -24,10 +24,10 @@ Computer Vision
   Advantage of convolution: locality (shared weight, max(average) pooling); stride, padding
 ### LeNet 
   2 dimension input, average pooling  
-  3 convolution layer (5x5 filter), 1 full connected layer
+  3 convolution layer (5x5 filter), 1 fully connected layer
 ### AlexNet
   3 dimension input, ReLU, max pooling, response normlization, dropout, data augmentation  
-  5 convolution layer (11x11x3, 5x5x48, 3x3x256 filter), 3 full connected layer (result: softmax)
+  5 convolution layer (11x11x3, 5x5x48, 3x3x256 filter), 3 fully connected layer (result: softmax)
 ### ZFNet
   Parameter optimization by feature visualization (deconvolution)  
   Visualization optimization: feature extraction(edge, corner color, junction, object)  
