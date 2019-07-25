@@ -75,7 +75,7 @@ Optimizer: GD, SGD, Momentum, NAG, Adagrad, RMSProp, AdaDelta, Adam, Nadam, Othe
   3. SparseAdam : Adam suitable for sparse tensors
   4. ASGD: accelerating asynchronous SGD
   
-#### 참조 사이트
+#### Reference
 1. [BEOMSU KIM'S blog][beomsu_kims_blog]  
 2. [Sebastian Ruder's blog][Sebastian_Ruders_blog]  
 3. [Konvergen.AI][Konvergen_AI]  
