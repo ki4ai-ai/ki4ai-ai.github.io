@@ -25,7 +25,7 @@ Exponential Moving Average
 ### EMA
   Exponential weight average of specific period
   
-#### 참조 사이트
+#### Reference
 1. [Investopia][Investopia]  
 
 [Investopia]: https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp
