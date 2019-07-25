@@ -33,7 +33,7 @@ Schedular: Step, MultiSteip, CosineAnnealing, ReduceLROnPlateua, WarmUpLR
 ### [WarmUpLR][warmuplr]
   Learning rate varaiation: gradually increasing
   
-#### 참조 사이트
+#### Reference
 1. [CosineAnnealing][cosineannealing]  
 2. [ReduceLROnPlateua][reducelronplateua]  
 3. [Pytorch warmuplr][warmuplr]
