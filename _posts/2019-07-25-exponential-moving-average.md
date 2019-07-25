@@ -1,6 +1,6 @@
 ---
 title: "Exponential Moving Average"
-date: 2019-07-24 12:53:28 -0400
+date: 2019-07-25 13:35:28 -0400
 categories:
   - Exponential_Moving_Average
 tags:
