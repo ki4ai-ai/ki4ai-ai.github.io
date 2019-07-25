@@ -12,9 +12,9 @@ tags:
 Exponential Moving Average
 
 ## Contents  
-  1. SMA(#sma): simple moving average
-  2. LMA(#lma): linear weighted average
-  3. EMA(#ema): exponential moving average
+  1. [SMA](#sma): simple moving average
+  2. [LMA](#lma): linear weighted average
+  3. [EMA](#ema): exponential moving average
   
 ### SMA
   Average of specific period
