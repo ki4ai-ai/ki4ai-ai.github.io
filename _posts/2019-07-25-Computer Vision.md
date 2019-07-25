@@ -20,26 +20,26 @@ Computer Vision
   6. [ResNet](#resnet)  
   
 ### CNN
-  Neural network with convolution (ex. 3*3 filter(kernel))  
+  Neural network with convolution (ex. 3x3 filter(kernel))  
   Advantage of convolution: locality (shared weight, max(average) pooling); stride, padding
 ### LeNet 
   2 dimension input, average pooling  
-  3 convolution layer (5*5 filter), 1 full connected layer
+  3 convolution layer (5x5 filter), 1 full connected layer
 ### AlexNet
   3 dimension input, ReLU, max pooling, response normlization, dropout, data augmentation  
-  5 convolution layer (11*11*3, 5*5*48, 3*3*256 filter), 3 full connected layer (result: softmax)
+  5 convolution layer (11x11x3, 5x5x48, 3x3x256 filter), 3 full connected layer (result: softmax)
 ### ZFNet
   Parameter optimization by feature visualization (deconvolution)  
   Visualization optimization: feature extraction(edge, corner color, junction, object)  
   Deconvolution application: image detection(localization) cf. selective search (with spatial pyramid pooling)
 ### GoogleNet
-  Deeper network by 9 * inception module with 1*1*n filter (and various n*n convolution and pooling)  
+  Deeper network by 9 inception module with 1x1xn filter (and various nxn convolution and pooling)  
   Auxiliary classifier: sub-output for backpropagation(vanishing gradient avoidance)  
   cf. NIN: convolution with multi layer perceptron instead of pooling (result: pooling)  
   cf. batch normalization, convolution factorization, label smoothing
 ### VGGNet
-  Deeper network by seperating learning (stratum structure) (and 3*3 convolution)  
-  cf. OverFeat: Dense evaluation, 1*1 convolution instead of fully connected
+  Deeper network by seperating learning (stratum structure) (and 3x3 convolution)  
+  cf. OverFeat: Dense evaluation, 1x1 convolution instead of fully connected
 ### ResNet
   Residual network: skip layer connection  
   cf. faster RCNN: ROI pooling with softmax and linear classification for image detection
