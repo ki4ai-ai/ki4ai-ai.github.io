@@ -76,7 +76,12 @@ Optimizer: GD, SGD, Momentum, NAG, Adagrad, RMSProp, AdaDelta, Adam, Nadam, Othe
   4. ASGD: accelerating asynchronous SGD
   
 #### 참조 사이트
-1. BEOMSU kIM'S blog: [http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html]  
-2. Sebastian Ruder's blog: [http://ruder.io/optimizing-gradient-descent/]  
-3. Konvergen.AI: [https://medium.com/konvergen/modifying-adam-to-use-nesterov-accelerated-gradients-nesterov-accelerated-adaptive-moment-67154177e1fd]  
-4. [https://kite.com/python/docs/torch.optim.SparseAdam]  
+1. [BEOMSU KIM'S blog][beomsu_kims_blog]  
+2. [Sebastian Ruder's blog][Sebastian_Ruders_blog]  
+3. [Konvergen.AI][Konvergen_AI]  
+4. [Kite][Kite]  
+
+[beomsu_kims_blog]: http://shuuki4.github.io/deep%20learning/2016/05/20/Gradient-Descent-Algorithm-Overview.html  
+[Sebastian_Ruders_blog]: http://ruder.io/optimizing-gradient-descent/
+[Konvergen_AI]: https://medium.com/konvergen/modifying-adam-to-use-nesterov-accelerated-gradients-nesterov-accelerated-adaptive-moment-67154177e1fd  
+[Kite]: https://kite.com/python/docs/torch.optim.SparseAdam  
