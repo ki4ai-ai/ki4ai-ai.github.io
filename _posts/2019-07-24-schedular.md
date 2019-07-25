@@ -34,9 +34,9 @@ Schedular: Step, MultiSteip, CosineAnnealing, ReduceLROnPlateua, WarmUpLR
   Learning rate varaiation: gradually increasing
   
 #### 참조 사이트
-1. CosineAnnealing: https://arxiv.org/abs/1608.03983
-2. ReduceLROnPlateua: https://pytorch.org/docs/stable/_modules/torch/optim/lr_scheduler.html
-3. https://github.com/ildoonet/pytorch-gradual-warmup-lr
+1. [CosineAnnealing][cosineannealing]  
+2. [ReduceLROnPlateua][reducelronplateua]  
+3. [Pytorch warmuplr][warmuplr]
 
 [cosineannealing]: https://arxiv.org/abs/1608.03983
 [reducelronplateua]: https://pytorch.org/docs/stable/_modules/torch/optim/lr_scheduler.html
