@@ -13,7 +13,9 @@ Natural Language Processing
 
 ## Contents  
   1. [Analysis](#analysis)   
-  2. [Method](#method)
+  2. [Algorithm](#algorithm)
+  3. [Method](#method)   
+  4. [Background_algorithm](#background_algorithm)
   
 ### Analysis
   Term-document (count word), word-context(count surrounded word), pair pattern  
@@ -39,7 +41,7 @@ Natural Language Processing
   Embedding (sentiment specfic word, task specific): emotion, framework (S-Space, semantic vectors, gensim, pydsm, dissect)  
   Autoencoder (stacked denosing, combinatory categorial)
   
-### background algorithm
+### Background_algorithm
   Similarity: common feature, ratio, simple matching, jacquard, overlap, cosine  
   Ratio (frequency, accuracy, ratio, probability, separation): odds(numerator), F1, F2, entropy  
   Morpheme extraction: Branching Entropy, Cohension Probability  
