@@ -29,7 +29,7 @@ Natural Language Processing
   TF-IDF (term frequency-inverse document frequency), SVM (support vector machine), linear regression, naive bayesian, K-NN (k-nearest neighbor)  
   Network  
   Probability distribution: n-gram, LDA (Latent Dirichelet Allocation), pLSA (Probabilistic Latent Semantic Analysis)  
-  CNN (convolutional neural network)  
+  CNN (convolutional neural network): QANET  
   RNN (recurrent neural network, recursive neural network)  
   LSTM (long short term memory), GRU(gated recurrent unit), GAN(generative adversial network)  
   Encoder/Decoder: autoencoder, attention (similarity)
@@ -39,7 +39,7 @@ Natural Language Processing
   Word2Vec/GloVE/Fasttext: CBOW (continuous-bag-of-words), skip-gram/inner-product property/subword  
   Seq2Seq: attention  
   Embedding (sentiment specfic word, task specific): emotion, framework (S-Space, semantic vectors, gensim, pydsm, dissect)  
-  Autoencoder (stacked denosing, combinatory categorial)
+  Autoencoder (stacked denosing, combinatory categorial)/BERT (bidirectional encoder representations from transformers)
   
 ### Background_algorithm
   Similarity: common feature, ratio, simple matching, jacquard, overlap, cosine  
@@ -49,7 +49,8 @@ Natural Language Processing
   Dimension reduction: SVD (singular value decomposition), PCA (principal component analysis), t-SNE (t-stochastic neghbor embedding)  
   Sampling (softmax loss update): candidate (part of data), negative (binary classification)  
   Smoothing (normalized topic)  
-  Finite grammer
+  Finite grammer  
+  BiDAF (bidirectional attention flow for machine comprehension)
   
 #### Reference
 1. [ratsgo's blog][ratsgos blog]  
