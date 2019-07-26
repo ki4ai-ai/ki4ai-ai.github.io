@@ -31,7 +31,7 @@ Natural Language Processing
   Probability distribution: n-gram, LDA (Latent Dirichelet Allocation), pLSA (Probabilistic Latent Semantic Analysis)  
   CNN (convolutional neural network)  
   RNN (recurrent neural network, recursive neural network)  
-  LSTM (long short term memory ), GRU(gated recurrent unit), GAN(generative adversial network)  
+  LSTM (long short term memory), GRU(gated recurrent unit), GAN(generative adversial network)  
   Encoder/Decoder: autoencoder, attention (similarity)
   
 ### Method 
