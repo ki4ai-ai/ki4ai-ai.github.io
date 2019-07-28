@@ -1,13 +1,13 @@
 ---
 title: "Platform/architecture"
-date: 2019-07-2 12:31:47 -0400
+date: 2019-07-28 17:43:54 -0400
 categories:
   - Platform-architecture
 tags:
   - platform/architecture
 ---
 
-Platform/architecture 
+Platform/architecture (On work: 2019.07.28~?) 
 
 ## Contents
 1. [Software Architecture](#software_architecture)
@@ -15,6 +15,17 @@ Platform/architecture
 3. [Life Cycle](#life_cycle)
 
 ### Software_architecture
+definition: system (software elements, relations, properties) and enterprise (interaction); design, analyze, document, implement; abstraction
+modules (implementation partition of system, decomposition): layers, object-oriented, design-class
+interaction: synchronization, relation
+allocation: organization, developmental, installation, execution; implementation, integration, testing
+cf. software structure
+
+1.2~
+
+component and connector: runtime entitiy and ?
+
+
 
 ### Quality_attributes
 
