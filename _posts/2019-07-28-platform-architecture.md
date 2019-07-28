@@ -1,5 +1,5 @@
 ---
-title: "Platform/architecture"
+title: "Platform/architecture(On work: 2019.07.28~?)"
 date: 2019-07-28 17:43:54 -0400
 categories:
   - Platform-architecture
